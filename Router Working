@@ -15,3 +15,7 @@ How IP packets are routed in a LAN (VERY VERY IMP VIDEO)
 
 TCP/IP protocol stack changes when a packet is sent and received(VERY VERY IMP VIDEO)
 10 minute video -> https://www.youtube.com/watch?v=U9arSNHLgsc
+VERY IMP NOTE: The router processes the packet UPTO network layer (that means from down it can make changes to datalink layer
+(hardware or MAC address) and can also make changes to network layer(that is IP address) of the packet, 
+whereas the switch can process the packet upto the datalink layer(that is it can change the hardware or the MAC address
+but not the IP address)
