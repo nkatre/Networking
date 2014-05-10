@@ -1,7 +1,7 @@
 Working of Switch when it boots up(when the switch tables or the CAM tables are empty)
 4 minute video -> https://www.youtube.com/watch?v=1YT7hsfYxz8
 
-How does a switch learn MAC(48 bit) addresses
+How does a switch learn MAC(48 bit) addresses OR How does te switch populate the CAM or MAC address table
 6 minute video -> https://www.youtube.com/watch?v=WqjpBn-0oI4
 
 2 primary functions of Switch are:
