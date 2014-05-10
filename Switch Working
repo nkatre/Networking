@@ -1,0 +1,10 @@
+Working of Switch when it boots up(when the switch tables or the CAM tables are empty)
+4 minute video -> https://www.youtube.com/watch?v=1YT7hsfYxz8
+
+How does a switch learn MAC(48 bit) addresses
+6 minute video -> https://www.youtube.com/watch?v=WqjpBn-0oI4
+
+2 primary functions of Switch are:
+1) Forwarding a frame
+2) Learning the MAC(48 bit) addresses
+
