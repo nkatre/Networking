@@ -5,3 +5,5 @@ Working of ARP:
 When a MAC address is unknown, an ARP request is sent which is a BROADCAST address whereas an ARP reply is always a UNICAST message
 since the MAC address of the device sending the message is known to the destination machine which sends the ARP reply.
 Hence, ARP reply is always UNICAST
+
+ARP is L2 protocol since it deals with Machine or MAC addresses
