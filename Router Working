@@ -22,3 +22,7 @@ VERY IMP NOTE: The router processes the packet UPTO network layer (that means fr
 (hardware or MAC address) and can also make changes to network layer(that is IP address) of the packet, 
 whereas the switch can process the packet upto the datalink layer(that is it can change the hardware or the MAC address
 but not the IP address)
+
+
+Packet Analysis:
+15 minute video -> https://www.youtube.com/watch?v=PMfAF7OxDIw
