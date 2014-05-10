@@ -1,2 +1,6 @@
 6 videos, each video is of 4 minutes
 https://www.youtube.com/playlist?list=PL5DDE6309C9057EEA
+
+
+DNS hierarchy explained -> http://technet.microsoft.com/en-us/library/dd197427(v=ws.10).aspx
+That is Root server -> Top level Domain server -> Second level domain server -> Subdomain server -> Host server or resource name 
