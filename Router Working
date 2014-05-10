@@ -26,5 +26,3 @@ but not the IP address)
 Router only LOOKS UP the netowrk layer address but MODIFIES the hardware(i.e. MAC addresses).
 IMP words are LOOK UP and MODIFIES
 
-Packet Analysis:
-15 minute video -> https://www.youtube.com/watch?v=PMfAF7OxDIw
