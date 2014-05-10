@@ -3,6 +3,9 @@ Contents of the Router Table
 2) Next Hop port humber
 3) Cost to reach destination
 
+PLEASE NOTE that a router also has ARP table to store the MAC addresses. If MAC address of a device is unkown to the Router, then
+the Router does an ARP and gets the MAC address and then forwards the packet to that specific device.
+
 How does Router forwards the packets
 4 minute video -> https://www.youtube.com/watch?v=Rgz6Fa23gis
 1 minute video -> https://www.youtube.com/watch?v=k95saRNx8GU
