@@ -1,3 +1,6 @@
+Video of Collision and Broadcast Domian:
+5 minute video -> https://www.youtube.com/watch?v=1JW8wa8K33I
+
 Source: https://learningnetwork.cisco.com/thread/1734
 
 Collision Domain
@@ -40,3 +43,27 @@ With all this information, you can say that on your diagram, there are 2 broadca
  
 There are 8 collision domains, one per pair of devices connected to each other
 (switch to router, switch to swich, switch to computer etc...) since we are talking about layer 1 concept (physical connection).
+
+
+
+Source -> https://answers.yahoo.com/question/index?qid=20100201105617AA8aLyk
+
+With a hub every connected device is in the same collision domain and the same broadcast domain. 
+With a switch* every connected device is in the same broadcast domain but there is either a seperate collision domain
+for each port (if the links are half duplex) or no collision domain at all (if the links are full duplex) 
+With a router the ports are seperate IP subnets and broadcasts are not usually passed from one network to another
+(though it is often possible to configure the router to pass them and it can be usefull to do so in some circumstances) 
+
+Source -> Viniotis Notes
+Hubs : Incase of Hubs, if any one transmits all or any other interface can sense the transmission, hence the Hub has a single
+collision domain
+Incase of Hubs, the broadcast packets sent to any one port is sent to all the ports. Hence the Hub has a single broadcast domian
+
+Switches : Incase of switches, the ping packet sent to any one port is sent to all the ports except the port from which
+it originated. Hence the Switch has a single Broadcast Domain
+Incase of the Switched, each port can sense simultaneous transmission, hence every interface of the switch is a Collision Domain
+i.e. No of Collision Domains=No of ports or interfaces on the Switch
+
+
+
+
