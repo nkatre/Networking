@@ -8,4 +8,5 @@ Hence, ARP reply is always UNICAST
 
 ARP is L2 protocol since it deals with Machine or MAC addresses
 
-Information about GRATUITOUS APR -> http://wiki.wireshark.org/Gratuitous_ARP
+Information about GRATUITOUS APR
+10 minute reading -> http://wiki.wireshark.org/Gratuitous_ARP
