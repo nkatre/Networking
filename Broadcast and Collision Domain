@@ -1,6 +1,9 @@
-Collision Domains
- 
- 
+Source: https://learningnetwork.cisco.com/thread/1734
+
+Collision Domain
+Def -> Any domain in which simultaneous transmissions are possible are called Collision Domain. (That is any set of links where
+we will see simultaneous transmissions)
+
 - layer 1 of the OSI model
  
  
@@ -18,7 +21,8 @@ only to the interface where it is connected
 are a layer 2 concept, not layer 1 like collision domains)
  
  
-Broadcast Domains
+Broadcast Domain :
+Def -> Set of all the ports reachable by "broadcast frame" is said to be a Broadcast domain.
  
  
 - layer 2 of the OSI model
@@ -29,10 +33,6 @@ concept (mac address related)
  
  
 - routers don't forward layer 2 broadcasts, hence they separate broadcast domains
- 
- 
- 
- 
  
 With all this information, you can say that on your diagram, there are 2 broadcast domains
 (1 router that separates 2 LAN segments composed by one or many switches, with only 1 VLAN per segment).
