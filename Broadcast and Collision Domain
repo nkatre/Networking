@@ -1,50 +1,6 @@
 Video of Collision and Broadcast Domian:
 5 minute video -> https://www.youtube.com/watch?v=1JW8wa8K33I
 
-Source: https://learningnetwork.cisco.com/thread/1734
-
-Collision Domain
-Def -> Any domain in which simultaneous transmissions are possible are called Collision Domain. (That is any set of links where
-we will see simultaneous transmissions)
-
-- layer 1 of the OSI model
- 
- 
-- a hub is an entire collision domain since it forwards every bit it receives from one interface on every other interfaces
- 
- 
-- a bridge is a two interfaces device that creates 2 collision domains, since it forwards the traffic it receives
-from one interface only to the interface where the destination layer 2 device (based on his mac address) is connected to.
-A bridge is considered as an "intelligent hub" since it reads the destination mac address in order to forward the traffic 
-only to the interface where it is connected
- 
- 
-- a switch is a multi-interface hub, every interface on a switch is a collision domain. A 24 interfaces switch creates 
-24 collision domains (assuming every interface is connected to something, VLAN don't have any importance here since VLANs
-are a layer 2 concept, not layer 1 like collision domains)
- 
- 
-Broadcast Domain :
-Def -> Set of all the ports reachable by "broadcast frame" is said to be a Broadcast domain.
- 
- 
-- layer 2 of the OSI model
- 
- 
-- a switch creates an entire broadcast domain (provided that there's only one VLAN) since broadcasts are a layer 2 
-concept (mac address related)
- 
- 
-- routers don't forward layer 2 broadcasts, hence they separate broadcast domains
- 
-With all this information, you can say that on your diagram, there are 2 broadcast domains
-(1 router that separates 2 LAN segments composed by one or many switches, with only 1 VLAN per segment).
- 
- 
-There are 8 collision domains, one per pair of devices connected to each other
-(switch to router, switch to swich, switch to computer etc...) since we are talking about layer 1 concept (physical connection).
-
-
 
 Source -> https://answers.yahoo.com/question/index?qid=20100201105617AA8aLyk
 
@@ -65,9 +21,10 @@ Incase of the Switched, each port can sense simultaneous transmission, hence eve
 i.e. No of Collision Domains=No of ports or interfaces on the Switch
 
 Routers:
-Every port of a Router is in a separate Collision Domian(every interface represents a subnet where collision can occur
-i.e. within a subnet, collision can occur)
+Every port of a Router is in a SEPARATE(very imp word) Collision Domian(every interface represents a subnet where 
+collision can occur i.e. within a subnet, collision can occur)
 Hence No of Collision Domains=No of ports or interfaces on the Router
-Every port of a Router is in a separate Broadcast domain (every interface represents a subnet which is a broadcast domain)
+Every port of a Router is in a SEPARATE(very imp word) Broadcast domain (every interface represents a subnet which 
+is a broadcast domain)
 Hence No of Broadcast Domains=No of ports or interfaces on the Router
 
