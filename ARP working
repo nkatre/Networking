@@ -7,3 +7,5 @@ since the MAC address of the device sending the message is known to the destinat
 Hence, ARP reply is always UNICAST
 
 ARP is L2 protocol since it deals with Machine or MAC addresses
+
+Information about GRATUITOUS APR -> http://wiki.wireshark.org/Gratuitous_ARP
