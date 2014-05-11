@@ -64,6 +64,10 @@ it originated. Hence the Switch has a single Broadcast Domain
 Incase of the Switched, each port can sense simultaneous transmission, hence every interface of the switch is a Collision Domain
 i.e. No of Collision Domains=No of ports or interfaces on the Switch
 
-
-
+Routers:
+Every port of a Router is in a separate Collision Domian(every interface represents a subnet where collision can occur
+i.e. within a subnet, collision can occur)
+Hence No of Collision Domains=No of ports or interfaces on the Router
+Every port of a Router is in a separate Broadcast domain (every interface represents a subnet which is a broadcast domain)
+Hence No of Broadcast Domains=No of ports or interfaces on the Router
 
