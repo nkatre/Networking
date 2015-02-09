@@ -1,4 +1,4 @@
-Diff between Thread and Process
+Q1. Diff between Thread and Process
 Ans. Here is the analogy I use in Linux Kernel Development.
 Processes are the abstraction of running programs: A binary image, virtualized memory, various kernel resources,
 an associated security context, and so on. Threads are the unit of execution in a process: A virtualized processor,
@@ -16,3 +16,6 @@ RAM or on-disk storage (swap space). A virtualized processor lets processes act 
 run on a processor, when in fact multiple processes are multitasking across multiple processors.
 
 Source: http://www.quora.com/What-is-the-difference-between-a-process-and-a-thread
+
+Q2. Difference between Mutes and Semaphores ?
+Ans. Source: http://www.quora.com/What-is-the-difference-between-a-mutex-and-a-semaphore
