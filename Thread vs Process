@@ -18,4 +18,6 @@ run on a processor, when in fact multiple processes are multitasking across mult
 Source: http://www.quora.com/What-is-the-difference-between-a-process-and-a-thread
 
 Q2. Difference between Mutes and Semaphores ?
-Ans. Source: http://www.quora.com/What-is-the-difference-between-a-mutex-and-a-semaphore
+Ans. Source: 
+http://stackoverflow.com/questions/62814/difference-between-binary-semaphore-and-mutex
+http://www.quora.com/What-is-the-difference-between-a-mutex-and-a-semaphore
