@@ -19,5 +19,4 @@ Source: http://www.quora.com/What-is-the-difference-between-a-process-and-a-thre
 
 Q2. Difference between Mutes and Semaphores ?
 Ans. Source: 
-http://stackoverflow.com/questions/62814/difference-between-binary-semaphore-and-mutex
-http://www.quora.com/What-is-the-difference-between-a-mutex-and-a-semaphore
+http://www.geeksforgeeks.org/mutex-vs-semaphore/
