@@ -6,8 +6,12 @@ IP Address & Subnet Mask Basics:
 https://www.youtube.com/watch?v=w0RM7PY34Bg
 IP Subnetting from CIDR Notations:
 https://www.youtube.com/watch?v=POPoAjWFkGg
-ARP vs RARP:
+ARP, RARP, and Proxy ARP:
 https://www.youtube.com/watch?v=A_qgQRQ4F5Q
+Gratuitous ARP:
+https://www.youtube.com/watch?v=JPLn6wfAmZY
+DNS working:
+DHCP working:
 OSPF vs RIP:
 TCP Congestion Control:
 TCP Flow Control:
