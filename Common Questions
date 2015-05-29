@@ -4,4 +4,6 @@ Q3) TCP vs UDP ?
 Q2) TCP/IP, OSPF, RIP, functions of each layer, what happens at each layer of TCP(at client and server) when a 
 packet is routed, and packet traversal details over the network?
 
+Functions of each layer best eplanation: https://support.microsoft.com/en-us/kb/103884
+
 Q3) StackAPI implmentation, finding repeatative characters in a string without using Collections API of Java?
