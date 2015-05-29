@@ -19,3 +19,8 @@ TCP Flow Control:
 sTP:
 HSRP vs VRRP:
 GLBP:
+**Roting Protocols Layer(Source: https://learningnetwork.cisco.com/thread/14911):**
+IS-IS runs over the data link layer (layer 2 )
+OSPF, IGRP, and EIGRP run directly over IP (layer 3) But  OSPF and EIGRP have their own reliable transmission mechanism while IGRP assumed an unreliable transport
+RIP runs over UDP (layer 4) .
+BGP runs over TCP (layer 4) .
