@@ -16,7 +16,7 @@ OSPF vs RIP:
 https://www.youtube.com/watch?v=CBDdM-imW7o&list=PL39A9EF505C31E35A
 TCP Congestion Control:
 TCP Flow Control:
-sTP:
+STP(STP works on layer 2):
 HSRP vs VRRP:
 GLBP:
 Roting Protocols Layer(Source: https://learningnetwork.cisco.com/thread/14911):
